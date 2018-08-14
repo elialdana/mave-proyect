@@ -1,0 +1,6 @@
+com\jesuslc\contact\service\ContactServiceImpl.class
+com\jesuslc\contact\form\Contact.class
+com\jesuslc\contact\dao\ContactDAOImpl.class
+com\jesuslc\contact\dao\ContactDAO.class
+com\jesuslc\contact\controller\ContactController.class
+com\jesuslc\contact\service\ContactService.class
