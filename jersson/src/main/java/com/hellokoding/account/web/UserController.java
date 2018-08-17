@@ -48,12 +48,13 @@ public class UserController {
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String login(Model model, String error, String logout) {  
         if (error != null){
-            //model.addAttribute("error", "Tus credenciales son inválidas");
+//            model.addAttribute("error", "Tus credenciales son inválidas");
             return "redirect:/error";       	
         }
-        if (logout != null)
-            model.addAttribute("message", "Has salido del sistema exitosamente");
-
+        if (logout != null){
+//            model.addAttribute("message", "Has salido del sistema exitosamente");
+        	return "redirect:/welcome";
+        }   
         return "login";
     }
 
